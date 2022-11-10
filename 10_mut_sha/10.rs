@@ -15,7 +15,7 @@ fn main() {
     num = 9;
 
     let num = 10;
-    let num = "My variable"
+    let num = "My variable";
     println!("{}", num);
 
     let x = 0;
