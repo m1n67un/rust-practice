@@ -4,9 +4,9 @@ fn in_char_vec(char_vec: &Vec<char>, check: char) {
 
 fn main() {
     let char_vec = ('a'..'韓').collect::<Vec<char>>();
-    in_char_vec(&char_vec, "i");
-    in_char_vec(&char_vec, "뷁");
-    in_char_vec(&char_vec, "姜");
+    in_char_vec(&char_vec, 'i');
+    in_char_vec(&char_vec, '뷁');
+    in_char_vec(&char_vec, '姜');
 
     let smailer_vec = ('A'..'z').collect::<Vec<char>>();
     println!("All alphabetic? {}", smailer_vec.iter().all(|&character| character.is_alphabetic()));
